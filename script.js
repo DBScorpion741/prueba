@@ -53,13 +53,6 @@ function changeLanguage(key) {
         </div>
     `);
 
-    renderGrid('rules-container', config.content.rules, (r) => `
-        <div class="rule-card">
-            <h3>${r['title' + suffix]}</h3>
-            <p>${r['desc' + suffix]}</p>
-        </div>
-    `);
-
     // FAQ con Grid Animation Support
     const faqCont = document.getElementById('faq-container');
     faqCont.innerHTML = '';
@@ -79,10 +72,10 @@ function changeLanguage(key) {
         `;
     });
 
-    // Legal (HTML)
-    document.getElementById('legal-tos').innerHTML = config.content.legal['tos' + suffix];
-    document.getElementById('legal-notice').innerHTML = config.content.legal['notice' + suffix];
-    document.getElementById('legal-priv').innerHTML = config.content.legal['priv' + suffix];
+    // Proyects (HTML)
+    document.getElementById('proyects-tos').innerHTML = config.content.proyects['tos' + suffix];
+    document.getElementById('proyects-notice').innerHTML = config.content.proyects['notice' + suffix];
+    document.getElementById('proyects-priv').innerHTML = config.content.proyecs['priv' + suffix];
 
     // Info General
     setText('nav-logo-text', config.serverName);
@@ -161,4 +154,5 @@ function initParticles() {
     }
 
 }
+
 
