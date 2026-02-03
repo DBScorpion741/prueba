@@ -1,8 +1,8 @@
 :root {
     --bg-dark: #050505;
     --bg-card: #0c0c0c;
-    --aqua: #38FCFF;
-    --aqua-hover: #1DF2F5;
+    --aqua: #36E1E3;
+    --aqua-hover: #1DDADB;
     --border: rgba(212, 175, 55, 0.2);
     --font-main: 'Inter', sans-serif;
     --font-title: 'Oswald', sans-serif;
@@ -180,5 +180,6 @@ footer { padding: 50px 20px; text-align: center; border-top: 1px solid var(--bor
     .l-tab { border-right: none; border-bottom: 1px solid var(--border); }
 
 }
+
 
 
