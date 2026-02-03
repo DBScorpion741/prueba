@@ -37,8 +37,6 @@ function changeLanguage(key) {
     setText('nav-staff', ui.nav.staff);
     setText('hero-subtitle', ui.hero.subtitle);
     setText('hero-btn-copy', ui.hero.btn_copy);
-    setText('title-staff', ui.titles.staff);
-    setText('title-rules', ui.titles.rules);
     setText('title-legal', ui.titles.legal);
 
     setText('tab-tos', ui.legal_tabs.tos);
@@ -124,21 +122,12 @@ function copyIp() {
     });
 }
 
-function initVoteCards() {
-    const c = document.getElementById('vote-container');
-    config.voteLinks.forEach(v => {
-        c.innerHTML += `<a href="${v.url}" target="_blank" class="vote-card"><h3>${v.name}</h3><span>CLICK PARA VOTAR</span></a>`;
-    });
-}
-
 function initSocials() {
     const c = document.getElementById('social-container');
     const s = config.social;
     const add = (i, l) => c.innerHTML += `<a href="${l}" target="_blank" class="social-icon"><i class="${i}"></i></a>`;
     if(s.discord) add('fab fa-discord', s.discord);
-    if(s.twitter) add('fab fa-twitter', s.twitter);
     if(s.instagram) add('fab fa-instagram', s.instagram);
-    if(s.tiktok) add('fab fa-tiktok', s.tiktok);
     if(s.youtube) add('fab fa-youtube', s.youtube);
     if(s.store) add('fas fa-shopping-cart', s.store);
 }
@@ -172,3 +161,4 @@ function initParticles() {
     }
 
 }
+
