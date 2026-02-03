@@ -22,24 +22,24 @@ const config = {
         // --- STAFF ---
         staff: [
             { 
-                name: "scorpion741", role: "OWNER", 
-                bio_es: "Fundador de Sintux Studios y creador de los eventos y series.",
-                bio_en: "Founder of Sintux Studios and creator of events and series."
+                name: "scorpion741", role: "DBS", 
+                bio_es: "Fundador de Sintux Studios y encargado de configurar series, eventos y dinamicas.",
+                bio_en: "Founder of Sintux Studios and in charge of setting up series, events and dynamics."
             },
             { 
                 name: "SrKbrivic", role: "ADMIN", 
-                bio_es: "Encargado de robar cuentas y ser un caso especial.",
-                bio_en: "Responsible for stealing accounts and being a special case."
+                bio_es: "Responsable de gestionar la comunidad y el estudio..",
+                bio_en: "Responsible for managing the community and the studio."
             },
             { 
                 name: "Guillermito14", role: "DEV", 
-                bio_es: "Configurador de los eventos y series.",
-                bio_en: "Event and series configurator."
+                bio_es: "Configurador, programador y diseñador del studio.",
+                bio_en: "Configurator, programmer and designer of the studio."
             },
             { 
                 name: "iloperv", role: "MANAGER", 
-                bio_es: "Configurador de los eventos y series.",
-                bio_en: "Event and series configurator."
+                bio_es: "Encargado de promover y organizar el studio.",
+                bio_en: "Responsible for promoting and organizing the study."
             }      
         ],
 
@@ -156,6 +156,7 @@ const config = {
     }
 
 };
+
 
 
 
