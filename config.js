@@ -1,7 +1,3 @@
-/* ================================================================
-   VANGUARD THEME - CONFIGURATION (FULL CONTENT VERSION)
-   ================================================================ */
-
 const config = {
     // 1. INFO SERVIDOR
     serverName: "SintuxStudios",
@@ -22,7 +18,7 @@ const config = {
         // --- STAFF ---
         staff: [
             { 
-                name: "scorpion741", role: "#9a2ec8DBS", 
+                name: "scorpion741", role: "DBS", 
                 bio_es: "Fundador de Sintux Studios y encargado de configurar series, eventos y dinamicas.",
                 bio_en: "Founder of Sintux Studios and in charge of setting up series, events and dynamics."
             },
@@ -156,6 +152,7 @@ const config = {
     }
 
 };
+
 
 
 
