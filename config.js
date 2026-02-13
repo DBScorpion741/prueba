@@ -39,7 +39,7 @@ const config = {
             }      
         ],
 
-        // --- TEXTOS LEGALES COMPLETOS (HTML) ---
+        // --- TEXTOS proyectsES COMPLETOS (HTML) ---
         proyects: {
             // TÉRMINOS DEL SERVICIO
             tos_es: `
@@ -69,14 +69,14 @@ const config = {
                 <p>Violations of server rules may result in warnings, mutes, temporary kicks, or permanent bans. The administrative team reserves the right to restrict access to any user deemed harmful to the community.</p>
             `,
 
-            // AVISO LEGAL
+            // AVISO proyects
             notice_es: `
                 <h3>Información de la Empresa</h3>
                 <ul>
-                    <li><b>Nombre Legal:</b> Vanguard Networks S.L.</li>
+                    <li><b>Nombre proyects:</b> Vanguard Networks S.L.</li>
                     <li><b>Dirección:</b> Calle Falsa 123, Madrid, España (Sede operativa en Estambul, Turquía)</li>
                     <li><b>N° Fiscal:</b> ES-B12345678</li>
-                    <li><b>Contacto Legal:</b> legal@vanguardmc.net</li>
+                    <li><b>Contacto proyects:</b> proyects@vanguardmc.net</li>
                 </ul>
                 <br>
                 <h3>Licencia y Derechos de Autor</h3>
@@ -86,10 +86,10 @@ const config = {
             notice_en: `
                 <h3>Company Information</h3>
                 <ul>
-                    <li><b>Legal Name:</b> Vanguard Networks S.L.</li>
+                    <li><b>proyects Name:</b> Vanguard Networks S.L.</li>
                     <li><b>Address:</b> Fake Street 123, Madrid, Spain (Operational HQ in Istanbul, Turkey)</li>
                     <li><b>Tax ID:</b> ES-B12345678</li>
-                    <li><b>Legal Contact:</b> legal@vanguardmc.net</li>
+                    <li><b>proyects Contact:</b> proyects@vanguardmc.net</li>
                 </ul>
                 <br>
                 <h3>License and Copyright</h3>
@@ -109,7 +109,7 @@ const config = {
                 </ul>
                 <br>
                 <h3>Período de Retención</h3>
-                <p>Los datos se almacenan de forma cifrada en nuestros servidores ubicados en la Unión Europea mientras la cuenta del jugador permanezca activa o sea necesario por razones legales y de seguridad.</p>
+                <p>Los datos se almacenan de forma cifrada en nuestros servidores ubicados en la Unión Europea mientras la cuenta del jugador permanezca activa o sea necesario por razones proyectses y de seguridad.</p>
                 <br>
                 <h3>Sus Derechos</h3>
                 <p>Usted tiene derecho al acceso, corrección, eliminación (derecho al olvido) y portabilidad de sus datos personales. Para ejercer estos derechos, por favor contacte a nuestro delegado de protección de datos en <b>privacy@vanguardmc.net</b>.</p>
@@ -125,7 +125,7 @@ const config = {
                 </ul>
                 <br>
                 <h3>Retention Period</h3>
-                <p>Data is stored encrypted on our servers located in the European Union while the player account remains active or as required for legal and security reasons.</p>
+                <p>Data is stored encrypted on our servers located in the European Union while the player account remains active or as required for proyects and security reasons.</p>
                 <br>
                 <h3>Your Rights</h3>
                 <p>You have the right to access, correct, delete (right to be forgotten), and port your personal data. To exercise these rights, please contact our data protection officer at <b>privacy@vanguardmc.net</b>.</p>
